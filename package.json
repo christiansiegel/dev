@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Personal homepage",
   "scripts": {
-    "css-build": "sass --no-source-map sass:static",
-    "css-watch": "npm run css-build -- --watch",
+    "build": "sass --no-source-map sass:static",
+    "watch": "npm run build -- --watch",
     "serve": "live-server static",
-    "start": "parallelshell \"npm run css-watch\" \"npm run serve\""
+    "start": "parallelshell \"npm run watch\" \"npm run serve\""
   },
   "repository": {
     "type": "git",
