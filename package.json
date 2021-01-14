@@ -1,0 +1,27 @@
+{
+  "name": "christiansiegel.dev",
+  "version": "1.0.0",
+  "description": "Personal homepage",
+  "scripts": {
+    "css-build": "sass --no-source-map sass:static",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiansiegel/christiansiegel.dev.git"
+  },
+  "keywords": [],
+  "author": "Christian Siegel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiansiegel/christiansiegel.dev/issues"
+  },
+  "homepage": "https:/christiansiegel.dev",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  },
+  "devDependencies": {
+    "sass": "^1.32.4"
+  }
+}
