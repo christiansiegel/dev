@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Personal homepage",
   "scripts": {
-    "build": "sass --no-source-map sass:static",
+    "build": "sass --no-source-map sass:dist",
     "watch": "npm run build -- --watch",
-    "serve": "live-server static",
+    "serve": "live-server dist",
     "start": "parallelshell \"npm run watch\" \"npm run serve\""
   },
   "repository": {
