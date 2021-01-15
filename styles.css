@@ -10128,3 +10128,15 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
+
+@media screen and (max-width: 768px) {
+  .my-link-button {
+    border-radius: 2px;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 769px), print {
+  .my-link-button {
+    font-size: 1rem;
+  }
+}
