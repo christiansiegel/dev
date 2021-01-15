@@ -3,3 +3,12 @@
 $primary: #0000cd;
 
 @import "../node_modules/bulma/bulma.sass";
+
+.my-link-button {
+  @include mobile {
+    @include button-small;
+  }
+  @include tablet {
+    @include button-normal;
+  }
+}
