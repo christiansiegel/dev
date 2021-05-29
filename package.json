@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christiansiegel/christiansiegel.dev.git"
+    "url": "git+https://github.com/christiansiegel/christiansiegel.github.io.git"
   },
   "keywords": [],
   "author": "Christian Siegel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christiansiegel/christiansiegel.dev/issues"
+    "url": "https://github.com/christiansiegel/christiansiegel.github.io/issues"
   },
-  "homepage": "https:/christiansiegel.dev",
+  "homepage": "https:/christiansiegel.github.io/",
   "dependencies": {
     "bulma": "0.9.1"
   },
