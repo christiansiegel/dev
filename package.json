@@ -5,7 +5,7 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{html,scss}\"",
     "prebuild": "prettier --check \"src/**/*.{html,scss}\"",
-    "copy": "copy-and-watch src/**/*.{html,ico} dist/",
+    "copy": "copy-and-watch src/**/*.{html,ico,png} dist/",
     "build:sass": "sass --no-source-map --style compressed src:dist",
     "build": "npm run copy && npm run build:sass && purgecss --css dist/styles.css --content dist/*.html --output dist",
     "serve": "live-server dist",
