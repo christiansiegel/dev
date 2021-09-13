@@ -5,3 +5,8 @@ $primary-700: #303f9f;
 
 // Import full Pico source code
 @import "../node_modules/@picocss/pico/scss/pico.scss";
+
+img.me {
+  height: auto;
+  border-radius: 50%;
+}
