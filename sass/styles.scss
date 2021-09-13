@@ -1,14 +1,7 @@
-@charset "utf-8";
+// Override default variables
+$primary-500: #3f51b5;
+$primary-600: #3949ab;
+$primary-700: #303f9f;
 
-$primary: #0000cd;
-
-@import "../node_modules/bulma/bulma.sass";
-
-.my-link-button {
-  @include mobile {
-    @include button-small;
-  }
-  @include tablet {
-    @include button-normal;
-  }
-}
+// Import full Pico source code
+@import "../node_modules/@picocss/pico/scss/pico.scss";
